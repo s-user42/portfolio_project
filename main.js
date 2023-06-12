@@ -9,6 +9,8 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 
 
 
+
+
 //verificarea temei in localStorage
 if (localStorage.getItem('darkMode') === 'dark') {
     $btnDarkMode.classList.add('dark-mode-btn--active');
